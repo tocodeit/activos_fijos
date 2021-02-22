@@ -1,0 +1,61 @@
+header {
+	background: #2c3e50;
+	color: #fff;
+	fonf-family: sans-serif;
+}
+
+
+.tableFixHead          { overflow-y: auto; height: 50vh; }
+.tableFixHead thead th { position: sticky; top: 0; }
+.tableFixHead tfoot tr {  }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+
+.btn-sm-tbl {
+	padding: .0rem .25rem; /* .25rem .5rem */;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.bg-item-warning {
+	background-color:#ffeeba;
+	border-color:#ffdf7e;
+}
+.bg-item-warning:hover {
+	background-color: #ffe8a1;
+}
+
+.bg-item-danger {
+	background-color: #f5c6cb;
+	border-color: #ed969e;
+}
+.bg-item-danger:hover {
+	background-color: #f1b0b7;
+}
+
+.bg-item-success {
+	background-color: #c3e6cb;
+	border-color: #8fd19e;
+}
+.bg-item-success:hover {
+	background-color: #b1dfbb;
+}
+
+.bg-item-info {
+	background-color: #bee5eb;
+	border-color: #86cfda;
+}
+.bg-item-info:hover {
+	background-color: #abdde5;
+}
+
+.bg-item-primary {
+	background-color: #b8daff;
+	border-color: #7abaff;
+}
+.bg-item-primary:hover {
+	background-color: #9fcdff;
+}
